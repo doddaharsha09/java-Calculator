@@ -43,7 +43,7 @@ public class Main {
             } catch (ArithmeticException e) {
                 System.out.println("Error: " + e.getMessage());
             }
-
+ 
             System.out.print("Do you want to calculate again? (y/n): ");
             repeat = sc.next().charAt(0);
 
